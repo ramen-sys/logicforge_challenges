@@ -49,5 +49,8 @@ def is_even_len(m,n):
         return True
     else:
         return False
-
-print(balance([1,3],[2]))
+array1=[1,3]
+array2=[2]
+print(array1)
+print(array2)
+print(f"median: {balance(array1,array2)}")

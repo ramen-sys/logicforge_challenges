@@ -16,4 +16,7 @@ def kthsmallest(matrix,k):
     return heapq.heappop(min_heap)[0]
 matrix = [[1, 5, 9], [10, 11, 13], [12, 13, 15]]
 k = 8
-print(kthsmallest(matrix, k))
+print("matrix: ",matrix)
+print("k: ",k)
+
+print(f"answer: {kthsmallest(matrix, k)}")
